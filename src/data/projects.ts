@@ -5,6 +5,7 @@ import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
 import spotifyPlayerImg from '../images/spotify.jpg';
+import trinityInsuranceImg from '../images/trinity-insurance.jpg';
 
 export const projects: Project[] = [
 	{
@@ -18,7 +19,7 @@ export const projects: Project[] = [
 		featured: true,
 		category: 'tooling',
 		challenge:
-			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that’s both flexible and collaborative.',
+			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that is both flexible and collaborative.',
 		solution:
 			'Built a drag-and-drop canvas app using React Flow where users can create topic clusters, assign metadata, and draw interlinking strategies that auto-save to localStorage.',
 		outcome:
@@ -58,11 +59,11 @@ export const projects: Project[] = [
 		featured: true,
 		category: 'marketing',
 		challenge:
-			'The client needed a high-fidelity marketing site to establish brand presence and onboard early users — all while conveying luxury and trust.',
+			'The client needed a high-fidelity marketing site to establish brand presence and onboard early users - all while conveying luxury and trust.',
 		solution:
 			'Designed and developed a responsive React site with elegant visual hierarchy, smooth transitions, and a custom vehicle showcase, all optimized for performance and accessibility.',
 		outcome:
-			'Delivered a polished user experience that effectively communicated Classico’s premium offering and captured early user interest through the waitlist funnel.',
+			'Delivered a polished user experience that effectively communicated Classicos premium offering and captured early user interest through the waitlist funnel.',
 		goals: [
 			'Convey a luxury brand aesthetic through design',
 			'Build a performant, responsive frontend experience',
@@ -253,6 +254,46 @@ export const projects: Project[] = [
 				title: 'Testing & Optimization',
 				description:
 					'Tested for accessibility, responsiveness, and user feedback on ease of navigation and cart logic.'
+			}
+		]
+	},
+	{
+		id: 7,
+		title: 'Trinity Insurance Website',
+		description:
+			'A modern, responsive website for Trinity Insurance, featuring a clean design and comprehensive insurance information.',
+		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+		imageUrl: trinityInsuranceImg,
+		demoUrl: 'https://www.trinityinv.net/',
+		featured: true,
+		category: 'business',
+		challenge:
+			'Create a professional insurance website that effectively communicates services while maintaining a modern, trustworthy aesthetic.',
+		solution:
+			'Developed a responsive React application with TypeScript, featuring clean UI components and optimized performance.',
+		outcome:
+			'Delivered a polished website that effectively showcases Trinity Insurance services and maintains a professional online presence.',
+		goals: [
+			'Create a professional and trustworthy design',
+			'Ensure responsive layout across all devices',
+			'Optimize for fast loading and performance',
+			'Implement clear navigation and service information'
+		],
+		process: [
+			{
+				title: 'Research & Planning',
+				description:
+					'Analyzed insurance website best practices and planned a user-friendly information architecture.'
+			},
+			{
+				title: 'Design & Development',
+				description:
+					'Built with React and TypeScript, using Tailwind CSS for responsive styling and modern UI components.'
+			},
+			{
+				title: 'Testing & Optimization',
+				description:
+					'Conducted thorough testing across devices and browsers, ensuring optimal performance and accessibility.'
 			}
 		]
 	}
