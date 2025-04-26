@@ -261,7 +261,7 @@ export const projects: Project[] = [
 			'A modern e-commerce platform for sneakers, featuring a clean design and seamless shopping experience.',
 		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
 		imageUrl: shoppingAppImg,
-		demoUrl: 'https://shopping-app-demo.vercel.app',
+		demoUrl: 'https://mattvogelsang.github.io/e-commerce/',
 		featured: true,
 		category: 'ecommerce',
 		challenge:
@@ -301,7 +301,7 @@ export const projects: Project[] = [
 			'A placeholder project for upcoming work.',
 		technologies: ['Coming Soon'],
 		imageUrl: launchingSoonImg,
-		demoUrl: '#',
+		demoUrl: 'https://mattvogelsang.github.io/countdown/',
 		featured: false,
 		category: 'placeholder',
 		challenge:
