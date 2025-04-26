@@ -5,7 +5,7 @@ import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
 import trinityInsuranceImg from '@/images/trinity-insurance.jpg';
-import workoutGeneratorImg from '@/images/launching-soon.jpg';
+import workoutGeneratorImg from '@/images/Workout-Generator.jpg';
 
 export const projects: Project[] = [
 	{
