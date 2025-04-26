@@ -21,6 +21,6 @@ License
 This project is licensed under the MIT License.
 
 Contact
-📧 Email: [your.email@example.com]
+📧 Email: Vogelsangmatt@gmail.com
 🌐 GitHub: MattVogelsang
 🔗 Portfolio Link:
