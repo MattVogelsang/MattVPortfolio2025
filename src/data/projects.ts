@@ -5,7 +5,7 @@ import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
 import spotifyPlayerImg from '../images/spotify.jpg';
-import trinityInsuranceImg from '../images/trinity-insurance.jpg';
+import trinityInsuranceImg from '@/images/trinity-insurance.jpg';
 
 export const projects: Project[] = [
 	{
