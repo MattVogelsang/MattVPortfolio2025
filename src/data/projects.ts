@@ -4,6 +4,7 @@ import spaceTourismImg from '../images/space-hero.jpg';
 import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
+import spotifyPlayerImg from '../images/spotify.jpg';
 
 export const projects: Project[] = [
 	{
@@ -17,7 +18,7 @@ export const projects: Project[] = [
 		featured: true,
 		category: 'tooling',
 		challenge:
-			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that is both flexible and collaborative.',
+			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that’s both flexible and collaborative.',
 		solution:
 			'Built a drag-and-drop canvas app using React Flow where users can create topic clusters, assign metadata, and draw interlinking strategies that auto-save to localStorage.',
 		outcome:
@@ -61,7 +62,7 @@ export const projects: Project[] = [
 		solution:
 			'Designed and developed a responsive React site with elegant visual hierarchy, smooth transitions, and a custom vehicle showcase, all optimized for performance and accessibility.',
 		outcome:
-			'Delivered a polished user experience that effectively communicated the premium offering from Classico and captured early user interest through the waitlist funnel.',
+			'Delivered a polished user experience that effectively communicated Classico’s premium offering and captured early user interest through the waitlist funnel.',
 		goals: [
 			'Convey a luxury brand aesthetic through design',
 			'Build a performant, responsive frontend experience',
@@ -93,41 +94,46 @@ export const projects: Project[] = [
 	},
 	{
 		id: 6,
-		title: 'Trinity Insurance Website',
+		title: 'Spotify-Inspired Audio Player',
 		description:
-			'A modern, responsive website for Trinity Insurance, featuring a clean design and comprehensive insurance information.',
+			'A fully custom audio streaming interface inspired by Spotify, featuring a polished playback experience with real-time controls and keyboard shortcuts.',
 		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-		imageUrl: launchingSoonImg,
-		demoUrl: 'https://www.trinityinv.net/',
+		imageUrl: spotifyPlayerImg,
+		demoUrl: 'https://spotify-clone-one-snowy.vercel.app/',
 		featured: true,
-		category: 'business',
+		category: 'media',
 		challenge:
-			'Create a professional insurance website that effectively communicates services while maintaining a modern, trustworthy aesthetic.',
+			'Build a scoped audio player project that mimics the feel of a native media app while showcasing interactive UI architecture and custom UX design.',
 		solution:
-			'Developed a responsive React application with TypeScript, featuring clean UI components and optimized performance.',
+			'Created a full-featured media player in React, handling playback state, keyboard controls, and dynamic UI rendering — all while ensuring smooth, intuitive user flow.',
 		outcome:
-			'Delivered a polished website that effectively showcases Trinity Insurance services and maintains a professional online presence.',
+			'Delivered a sleek, Spotify-like interface that feels responsive, native, and user-friendly. Demonstrates my ability to manage complex media state and design-aligned frontend systems.',
 		goals: [
-			'Create a professional and trustworthy design',
-			'Ensure responsive layout across all devices',
-			'Optimize for fast loading and performance',
-			'Implement clear navigation and service information'
+			'Replicate native-like audio playback experience',
+			'Support full playback control including keyboard shortcuts',
+			'Deliver a responsive, accessible interface',
+			'Maintain performance across desktop and mobile'
 		],
 		process: [
 			{
 				title: 'Research & Planning',
 				description:
-					'Analyzed insurance website best practices and planned a user-friendly information architecture.'
+					"Studied Spotify's layout and control logic to inform architecture and UX structure without duplicating proprietary design."
 			},
 			{
-				title: 'Design & Development',
+				title: 'Design & Prototyping',
 				description:
-					'Built with React and TypeScript, using Tailwind CSS for responsive styling and modern UI components.'
+					'Sketched UI interactions and hover behaviors to create a desktop-app feel with clean layout and spacing.'
+			},
+			{
+				title: 'Development',
+				description:
+					'Built the player using React + TypeScript with custom hooks for media state, Tailwind for styling, and Vite for blazing-fast builds.'
 			},
 			{
 				title: 'Testing & Optimization',
 				description:
-					'Conducted thorough testing across devices and browsers, ensuring optimal performance and accessibility.'
+					'Tested across breakpoints, validated keyboard navigation, and optimized rendering for smooth progress sync and volume changes.'
 			}
 		]
 	},
@@ -242,46 +248,11 @@ export const projects: Project[] = [
 				title: 'Development',
 				description:
 					'Built out components in React, handled state with Context, and styled everything with Tailwind.'
-			}
-		]
-	},
-	{
-		id: 7,
-		title: 'Workout Generator',
-		description:
-			'An interactive web application that generates personalized workout routines based on user preferences for workout type, difficulty level, and data source.',
-		technologies: ['JavaScript', 'HTML', 'CSS', 'API Integration'],
-		imageUrl: launchingSoonImg,
-		demoUrl: 'https://mattvogelsang.github.io/Workout-Generator/workout_generator.html',
-		featured: true,
-		category: 'fitness',
-		challenge:
-			'Create a user-friendly application that helps users generate customized workout routines based on their preferences and fitness goals.',
-		solution:
-			'Developed a responsive web application with options for workout type, difficulty level, and data source (local database or Wger API).',
-		outcome:
-			'Created a practical tool that helps users quickly generate workout routines tailored to their needs, with the flexibility to use either local data or an external API.',
-		goals: [
-			'Provide customizable workout generation options',
-			'Support multiple workout types and difficulty levels',
-			'Integrate with external API for expanded exercise database',
-			'Create an intuitive and responsive user interface'
-		],
-		process: [
-			{
-				title: 'Research & Planning',
-				description:
-					'Analyzed fitness app requirements and planned the user interface and data flow for workout generation.'
-			},
-			{
-				title: 'Development',
-				description:
-					'Built the application with JavaScript, implementing form handling, API integration, and dynamic workout generation.'
 			},
 			{
 				title: 'Testing & Optimization',
 				description:
-					'Tested the application across different devices and browsers, ensuring reliable workout generation and API integration.'
+					'Tested for accessibility, responsiveness, and user feedback on ease of navigation and cart logic.'
 			}
 		]
 	}
