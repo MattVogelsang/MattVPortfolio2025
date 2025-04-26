@@ -19,7 +19,7 @@ export const projects: Project[] = [
 		featured: true,
 		category: 'tooling',
 		challenge:
-			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that's both flexible and collaborative.',
+			"SEO teams often struggle with visualizing content plans and internal linking strategies in a way that's both flexible and collaborative.",
 		solution:
 			'Built a drag-and-drop canvas app using React Flow where users can create topic clusters, assign metadata, and draw interlinking strategies that auto-save to localStorage.',
 		outcome:
