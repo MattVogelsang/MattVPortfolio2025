@@ -4,8 +4,8 @@ import spaceTourismImg from '../images/space-hero.jpg';
 import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
-import spotifyPlayerImg from '../images/spotify.jpg';
 import trinityInsuranceImg from '@/images/trinity-insurance.jpg';
+import workoutGeneratorImg from '@/images/launching-soon.jpg';
 
 export const projects: Project[] = [
 	{
@@ -95,170 +95,6 @@ export const projects: Project[] = [
 	},
 	{
 		id: 6,
-		title: 'Spotify-Inspired Audio Player',
-		description:
-			'A fully custom audio streaming interface inspired by Spotify, featuring a polished playback experience with real-time controls and keyboard shortcuts.',
-		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-		imageUrl: spotifyPlayerImg,
-		demoUrl: 'https://spotify-clone-one-snowy.vercel.app/',
-		featured: true,
-		category: 'media',
-		challenge:
-			'Build a scoped audio player project that mimics the feel of a native media app while showcasing interactive UI architecture and custom UX design.',
-		solution:
-			'Created a full-featured media player in React, handling playback state, keyboard controls, and dynamic UI rendering — all while ensuring smooth, intuitive user flow.',
-		outcome:
-			'Delivered a sleek, Spotify-like interface that feels responsive, native, and user-friendly. Demonstrates my ability to manage complex media state and design-aligned frontend systems.',
-		goals: [
-			'Replicate native-like audio playback experience',
-			'Support full playback control including keyboard shortcuts',
-			'Deliver a responsive, accessible interface',
-			'Maintain performance across desktop and mobile'
-		],
-		process: [
-			{
-				title: 'Research & Planning',
-				description:
-					"Studied Spotify's layout and control logic to inform architecture and UX structure without duplicating proprietary design."
-			},
-			{
-				title: 'Design & Prototyping',
-				description:
-					'Sketched UI interactions and hover behaviors to create a desktop-app feel with clean layout and spacing.'
-			},
-			{
-				title: 'Development',
-				description:
-					'Built the player using React + TypeScript with custom hooks for media state, Tailwind for styling, and Vite for blazing-fast builds.'
-			},
-			{
-				title: 'Testing & Optimization',
-				description:
-					'Tested across breakpoints, validated keyboard navigation, and optimized rendering for smooth progress sync and volume changes.'
-			}
-		]
-	},
-	{
-		id: 1,
-		title: 'Launching Soon Landing Page',
-		description:
-			'A sleek, responsive landing page featuring a real-time countdown timer, built with React.',
-		technologies: ['JavaScript', 'HTML', 'CSS'],
-		imageUrl: launchingSoonImg,
-		demoUrl: 'https://mattvogelsang.github.io/countdown/',
-		featured: true,
-		category: 'landing page',
-		challenge:
-			'Create an engaging landing page that builds anticipation for a product launch while collecting user interest.',
-		solution:
-			'Built a responsive countdown page using React with CSS transitions and email capture integration.',
-		outcome:
-			'Increased valuable brand awareness before launch, and boosted brand visibility.',
-		goals: [
-			'Generate early interest before launch',
-			'Ensure mobile-first responsiveness',
-			'Keep users engaged with sleek animations'
-		],
-		process: [
-			{
-				title: 'Research & Planning',
-				description:
-					'Explored modern landing page designs and planned a one-scroll layout for clarity and conversion.'
-			},
-			{
-				title: 'Development',
-				description:
-					'Used React for dynamic countdown logic, with CSS animations and form validation.'
-			},
-			{
-				title: 'Testing & Optimization',
-				description:
-					'Optimized for mobile and performance; conducted A/B tests on CTA wording and button styles.'
-			}
-		]
-	},
-	{
-		id: 2,
-		title: 'Space Tourism Website',
-		description:
-			'A futuristic multi-page website for a fictional space tourism brand, featuring animated visuals and interactive booking components.',
-		technologies: ['React', 'React Router'],
-		imageUrl: spaceTourismImg,
-		demoUrl: 'https://your-demo-link.com/space-tourism',
-		featured: true,
-		category: 'marketing',
-		challenge:
-			'Design a visually stunning site that evokes the wonder of space travel while clearly presenting service offerings.',
-		solution:
-			'Built a React SPA with smooth scroll, animated transitions, and modular booking UI for space trips.',
-		outcome:
-			'Users praised the immersive design, and the fictional company concept gained traction on design forums.',
-		goals: [
-			'Create immersive space-themed visuals',
-			'Build a fully responsive UI',
-			'Incorporate smooth route-based animations',
-			'Prototype a modular booking system'
-		],
-		process: [
-			{
-				title: 'Research & Planning',
-				description:
-					'Studied space-themed UI patterns and sketched a multi-page structure with destination highlights.'
-			},
-			{
-				title: 'Development',
-				description:
-					'Implemented route transitions and scroll-based parallax effects.'
-			},
-			{
-				title: 'Testing & Optimization',
-				description:
-					'Tested on multiple devices and browsers; optimized image sizes and animation performance.'
-			}
-		]
-	},
-	{
-		id: 3,
-		title: 'Online Shopping App',
-		description:
-			'A fully responsive e-commerce application featuring a product display page.',
-		technologies: ['React', 'Tailwind CSS'],
-		imageUrl: shoppingAppImg,
-		demoUrl: 'https://mattvogelsang.github.io/e-commerce/',
-		featured: true,
-		category: 'ecommerce',
-		challenge:
-			'Build a clean, user-friendly shopping experience from scratch with dynamic product handling.',
-		solution:
-			'Used React for product state management, styled with Tailwind CSS, and integrated mock API data.',
-		outcome:
-			'The app served as a full-stack-ready prototype, demonstrating key commerce flows.',
-		goals: [
-			'Enable smooth browsing and filtering',
-			'Build reusable card and cart components',
-			'Maintain global cart state',
-			'Create a responsive layout for all devices'
-		],
-		process: [
-			{
-				title: 'Research & Planning',
-				description:
-					'Mapped out common e-commerce flows and user expectations for modern shopping UX.'
-			},
-			{
-				title: 'Development',
-				description:
-					'Built out components in React, handled state with Context, and styled everything with Tailwind.'
-			},
-			{
-				title: 'Testing & Optimization',
-				description:
-					'Tested for accessibility, responsiveness, and user feedback on ease of navigation and cart logic.'
-			}
-		]
-	},
-	{
-		id: 7,
 		title: 'Trinity Insurance Website',
 		description:
 			'A modern, responsive website for Trinity Insurance, featuring a clean design and comprehensive insurance information.',
@@ -294,6 +130,46 @@ export const projects: Project[] = [
 				title: 'Testing & Optimization',
 				description:
 					'Conducted thorough testing across devices and browsers, ensuring optimal performance and accessibility.'
+			}
+		]
+	},
+	{
+		id: 7,
+		title: 'Workout Generator',
+		description:
+			'An interactive web application that generates personalized workout routines based on user preferences for workout type, difficulty level, and data source.',
+		technologies: ['JavaScript', 'HTML', 'CSS', 'API Integration'],
+		imageUrl: workoutGeneratorImg,
+		demoUrl: 'https://mattvogelsang.github.io/Workout-Generator/workout_generator.html',
+		featured: true,
+		category: 'fitness',
+		challenge:
+			'Create a user-friendly application that helps users generate customized workout routines based on their preferences and fitness goals.',
+		solution:
+			'Developed a responsive web application with options for workout type, difficulty level, and data source (local database or Wger API).',
+		outcome:
+			'Created a practical tool that helps users quickly generate workout routines tailored to their needs, with the flexibility to use either local data or an external API.',
+		goals: [
+			'Provide customizable workout generation options',
+			'Support multiple workout types and difficulty levels',
+			'Integrate with external API for expanded exercise database',
+			'Create an intuitive and responsive user interface'
+		],
+		process: [
+			{
+				title: 'Research & Planning',
+				description:
+					'Analyzed fitness app requirements and planned the user interface and data flow for workout generation.'
+			},
+			{
+				title: 'Development',
+				description:
+					'Built the application with JavaScript, implementing form handling, API integration, and dynamic workout generation.'
+			},
+			{
+				title: 'Testing & Optimization',
+				description:
+					'Tested the application across different devices and browsers, ensuring reliable workout generation and API integration.'
 			}
 		]
 	}
