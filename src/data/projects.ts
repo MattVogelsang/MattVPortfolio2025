@@ -4,7 +4,6 @@ import spaceTourismImg from '../images/space-hero.jpg';
 import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
-import workoutGeneratorImg from '../images/workout-generator.jpg';
 
 export const projects: Project[] = [
 	{
@@ -252,7 +251,7 @@ export const projects: Project[] = [
 		description:
 			'An interactive web application that generates personalized workout routines based on user preferences for workout type, difficulty level, and data source.',
 		technologies: ['JavaScript', 'HTML', 'CSS', 'API Integration'],
-		imageUrl: workoutGeneratorImg,
+		imageUrl: launchingSoonImg,
 		demoUrl: 'https://mattvogelsang.github.io/Workout-Generator/workout_generator.html',
 		featured: true,
 		category: 'fitness',
