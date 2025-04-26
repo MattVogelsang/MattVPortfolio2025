@@ -9,6 +9,86 @@ import workoutGeneratorImg from '@/images/launching-soon.jpg';
 
 export const projects: Project[] = [
 	{
+		id: 1,
+		title: 'Space Tourism Website',
+		description:
+			'A modern, responsive website for a space tourism company, showcasing space travel experiences and destinations.',
+		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+		imageUrl: spaceTourismImg,
+		demoUrl: 'https://space-tourism-website.vercel.app',
+		featured: true,
+		category: 'tourism',
+		challenge:
+			'Create an engaging website that captures the excitement of space travel while maintaining a professional and trustworthy appearance.',
+		solution:
+			'Developed a responsive React application with TypeScript, featuring smooth animations and interactive elements.',
+		outcome:
+			'Delivered a polished website that effectively communicates the unique experience of space tourism and maintains user engagement.',
+		goals: [
+			'Create an immersive space tourism experience',
+			'Ensure responsive design across all devices',
+			'Implement smooth animations and transitions',
+			'Optimize for performance and accessibility'
+		],
+		process: [
+			{
+				title: 'Research & Planning',
+				description:
+					'Analyzed space tourism websites and planned a user-friendly information architecture.'
+			},
+			{
+				title: 'Design & Development',
+				description:
+					'Built with React and TypeScript, using Tailwind CSS for responsive styling and modern UI components.'
+			},
+			{
+				title: 'Testing & Optimization',
+				description:
+					'Conducted thorough testing across devices and browsers, ensuring optimal performance and accessibility.'
+			}
+		]
+	},
+	{
+		id: 2,
+		title: 'Shopping App',
+		description:
+			'A modern e-commerce platform for sneakers, featuring a clean design and seamless shopping experience.',
+		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+		imageUrl: shoppingAppImg,
+		demoUrl: 'https://shopping-app-demo.vercel.app',
+		featured: true,
+		category: 'ecommerce',
+		challenge:
+			'Develop an intuitive shopping experience that makes browsing and purchasing sneakers effortless.',
+		solution:
+			'Created a responsive React application with TypeScript, featuring product filtering, search, and a streamlined checkout process.',
+		outcome:
+			'Built a user-friendly e-commerce platform that effectively showcases products and facilitates easy purchases.',
+		goals: [
+			'Create an intuitive product browsing experience',
+			'Implement efficient search and filtering',
+			'Design a streamlined checkout process',
+			'Ensure responsive design across devices'
+		],
+		process: [
+			{
+				title: 'Research & Planning',
+				description:
+					'Analyzed e-commerce best practices and planned the user interface and shopping flow.'
+			},
+			{
+				title: 'Design & Development',
+				description:
+					'Built with React and TypeScript, implementing product management and shopping cart functionality.'
+			},
+			{
+				title: 'Testing & Optimization',
+				description:
+					'Tested across different devices and browsers, ensuring a smooth shopping experience.'
+			}
+		]
+	},
+	{
 		id: 4,
 		title: 'Project Atlas – Visual SEO Planning Tool',
 		description:
