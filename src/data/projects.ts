@@ -4,7 +4,6 @@ import spaceTourismImg from '../images/space-hero.jpg';
 import shoppingAppImg from '../images/sneakers-hero.jpg';
 import projectAtlasImg from '../images/project-atlas.jpg';
 import classicoImg from '../images/classico.jpg';
-import trinityInsuranceImg from '../images/trinity-insurance.jpg';
 import workoutGeneratorImg from '../images/workout-generator.jpg';
 
 export const projects: Project[] = [
@@ -99,7 +98,7 @@ export const projects: Project[] = [
 		description:
 			'A modern, responsive website for Trinity Insurance, featuring a clean design and comprehensive insurance information.',
 		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-		imageUrl: trinityInsuranceImg,
+		imageUrl: launchingSoonImg,
 		demoUrl: 'https://www.trinityinv.net/',
 		featured: true,
 		category: 'business',
