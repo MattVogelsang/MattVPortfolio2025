@@ -1,12 +1,21 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "zeroConfig": true,
-        "clean": true
+        "zeroConfig": false,
+        "clean": true,
+        "buildCommand": "npm run build",
+        "outputDirectory": "dist"
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 } 
