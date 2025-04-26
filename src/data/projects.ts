@@ -19,7 +19,7 @@ export const projects: Project[] = [
 		featured: true,
 		category: 'tooling',
 		challenge:
-			"SEO teams often struggle with visualizing content plans and internal linking strategies in a way that's both flexible and collaborative.",
+			'SEO teams often struggle with visualizing content plans and internal linking strategies in a way that\u2019s both flexible and collaborative.',
 		solution:
 			'Built a drag-and-drop canvas app using React Flow where users can create topic clusters, assign metadata, and draw interlinking strategies that auto-save to localStorage.',
 		outcome:
@@ -63,7 +63,7 @@ export const projects: Project[] = [
 		solution:
 			'Designed and developed a responsive React site with elegant visual hierarchy, smooth transitions, and a custom vehicle showcase, all optimized for performance and accessibility.',
 		outcome:
-			"Delivered a polished user experience that effectively communicated Classico's premium offering and captured early user interest through the waitlist funnel.",
+			"Delivered a polished user experience that effectively communicated Classico\u2019s premium offering and captured early user interest through the waitlist funnel.",
 		goals: [
 			'Convey a luxury brand aesthetic through design',
 			'Build a performant, responsive frontend experience',
