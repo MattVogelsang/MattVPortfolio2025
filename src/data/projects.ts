@@ -63,7 +63,7 @@ export const projects: Project[] = [
 		solution:
 			'Designed and developed a responsive React site with elegant visual hierarchy, smooth transitions, and a custom vehicle showcase, all optimized for performance and accessibility.',
 		outcome:
-			'Delivered a polished user experience that effectively communicated Classico's premium offering and captured early user interest through the waitlist funnel.',
+			"Delivered a polished user experience that effectively communicated Classico's premium offering and captured early user interest through the waitlist funnel.",
 		goals: [
 			'Convey a luxury brand aesthetic through design',
 			'Build a performant, responsive frontend experience',
