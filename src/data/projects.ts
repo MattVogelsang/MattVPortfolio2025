@@ -7,6 +7,7 @@ import classicoImg from '../images/classico.jpg';
 import trinityInsuranceImg from '@/images/trinity-insurance.jpg';
 import workoutGeneratorImg from '@/images/Workout-Generator.jpg';
 import landscapeImg from '@/images/Landscape.jpg';
+import shop23Img from '@/images/Shop23.jpg';
 
 export const projects: Project[] = [
 	{
@@ -318,6 +319,46 @@ export const projects: Project[] = [
 				title: 'Coming Soon',
 				description:
 					'Details coming soon.'
+			}
+		]
+	},
+	{
+		id: 9,
+		title: 'Shop23 - E-commerce Platform',
+		description:
+			'A modern e-commerce platform built with React and Node.js, featuring product browsing, shopping cart functionality, and secure checkout process.',
+		technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux'],
+		imageUrl: shop23Img,
+		demoUrl: 'https://project3-shop23.onrender.com/',
+		featured: true,
+		category: 'e-commerce',
+		challenge:
+			'Create a full-featured e-commerce platform that provides a seamless shopping experience with secure payment processing and efficient product management.',
+		solution:
+			'Developed a responsive React application with Node.js backend, implementing features like product catalog, shopping cart, user authentication, and secure checkout.',
+		outcome:
+			'Delivered a robust e-commerce solution that demonstrates full-stack development capabilities and modern web application architecture.',
+		goals: [
+			'Implement secure user authentication and authorization',
+			'Create an intuitive product browsing and search experience',
+			'Develop a reliable shopping cart and checkout system',
+			'Ensure responsive design across all devices'
+		],
+		process: [
+			{
+				title: 'Planning & Architecture',
+				description:
+					'Designed the application architecture, database schema, and API endpoints for optimal performance and scalability.'
+			},
+			{
+				title: 'Development',
+				description:
+					'Built the frontend with React and Redux for state management, and developed the backend using Node.js and Express.'
+			},
+			{
+				title: 'Testing & Deployment',
+				description:
+					'Conducted thorough testing of all features and deployed the application to Render for public access.'
 			}
 		]
 	}
