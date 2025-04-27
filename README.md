@@ -1,5 +1,8 @@
 # Matt Vogelsang Portfolio
 
+![](images/Screenshot 2025-04-26 at 3.40.04 PM)
+
+
 🔗 Portfolio Link: https://matthewportfolio.vercel.app/#home
 
 ## Description
