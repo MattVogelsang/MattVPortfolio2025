@@ -135,7 +135,7 @@ export const projects: Project[] = [
 		title: 'Workout Generator',
 		description:
 			'An interactive web application that generates personalized workout routines based on user preferences for workout type, difficulty level, and data source.',
-		technologies: ['JavaScript', 'HTML', 'CSS', 'API Integration'],
+		technologies: ['Python', 'JavaScript', 'HTML', 'CSS', 'API Integration'],
 		imageUrl: workoutGeneratorImg,
 		demoUrl: 'https://mattvogelsang.github.io/Workout-Generator/workout_generator.html',
 		featured: true,

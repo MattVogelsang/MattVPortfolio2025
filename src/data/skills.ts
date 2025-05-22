@@ -7,7 +7,8 @@ export const skillCategories: SkillCategory[] = [
 		skills: [
 			{ name: 'JavaScript', proficiency: 80 },
 			{ name: 'HTML5', proficiency: 89 },
-			{ name: 'CSS3', proficiency: 92 }
+			{ name: 'CSS3', proficiency: 92 },
+			{ name: 'Python', proficiency: 85 }
 		]
 	},
 	{
