@@ -8,6 +8,7 @@ import trinityInsuranceImg from '@/images/trinity-insurance.jpg';
 import workoutGeneratorImg from '@/images/Workout-Generator.jpg';
 import landscapeImg from '@/images/Landscape.jpg';
 import shop23Img from '@/images/Shop23.jpg';
+import swimWithSaraImg from '@/images/swim-with-sara.jpg';
 
 export const projects: Project[] = [
 	{
@@ -359,6 +360,46 @@ export const projects: Project[] = [
 				title: 'Testing & Deployment',
 				description:
 					'Conducted thorough testing of all features and deployed the application to Render for public access.'
+			}
+		]
+	},
+	{
+		id: 10,
+		title: 'Swim with Sara',
+		description:
+			'A modern, responsive website for Swim with Sara, showcasing swimming lessons and aquatic services with an engaging user experience.',
+		technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+		imageUrl: swimWithSaraImg,
+		demoUrl: 'https://swimwithsara.vercel.app',
+		featured: true,
+		category: 'business',
+		challenge:
+			'Create an engaging website that effectively communicates swimming lesson services while maintaining a professional and trustworthy aesthetic.',
+		solution:
+			'Developed a responsive React application with TypeScript, featuring modern UI components and optimized performance for the swimming instruction business.',
+		outcome:
+			'Delivered a polished website that effectively showcases Swim with Sara services and maintains a professional online presence.',
+		goals: [
+			'Create a professional and engaging design',
+			'Ensure responsive layout across all devices',
+			'Optimize for fast loading and performance',
+			'Implement clear navigation and service information'
+		],
+		process: [
+			{
+				title: 'Research & Planning',
+				description:
+					'Analyzed swimming instruction website best practices and planned a user-friendly information architecture.'
+			},
+			{
+				title: 'Design & Development',
+				description:
+					'Built with React and TypeScript, using Tailwind CSS for responsive styling and modern UI components.'
+			},
+			{
+				title: 'Testing & Optimization',
+				description:
+					'Conducted thorough testing across devices and browsers, ensuring optimal performance and accessibility.'
 			}
 		]
 	}
